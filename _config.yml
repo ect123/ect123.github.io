@@ -1,12 +1,12 @@
 # Site settings
-title: Evan Thornberry - Blog and Personal Site
+title: Evan Thornberry
 description: "Evan's site for sharing thoughts on GIS in Libraries, Maps and and other stuff. ."
-url: "http://www.thereviewindex.github.io/blog"
+url: "https://ect123.github.io/"
 ogimage: "img/default-ogimage.png"
 author:
-  name: "The Review Index"
-  email: "root@thereviewindex.com"
-  url: "https://thereviewindex.com"
+  name: "Evan"
+  email: ""
+  url: ""
 
 
 # Build settings
