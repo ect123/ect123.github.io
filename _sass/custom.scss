@@ -1,0 +1,26 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+
+#title {
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+#title-menu {
+  text-align: center;
+}
+#title-menu a{
+  color: rgba(0,0,0,0.6);
+}
+#title-icon {
+
+}
+#title-paragraph {
+  width:70%;
+  margin:auto;
+  text-align: center;
+}
+//remove this when I have some pages ready to display
+#nav-menu {
+  display:none !important;
+}

@@ -1,0 +1,42 @@
+# Site settings
+title: Evan Thornberry - Blog and Personal Site
+description: "Evan's site for sharing thoughts on GIS in Libraries, Maps and and other stuff. ."
+url: "http://www.thereviewindex.github.io/blog"
+ogimage: "img/default-ogimage.png"
+author:
+  name: "The Review Index"
+  email: "root@thereviewindex.com"
+  url: "https://thereviewindex.com"
+
+
+# Build settings
+baseurl: /
+blog: /thoughts/
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false

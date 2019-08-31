@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-31T10:15:03-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Evan Thornberry - Blog and Personal Site</title><subtitle>Evan's site for sharing thoughts on GIS in Libraries, Maps and and other stuff. .</subtitle><author><name>The Review Index</name><email>root@thereviewindex.com</email></author><entry><title type="html">Dominion Land Survey in British Columbia</title><link href="http://localhost:4000/DLS-in-British-Columbia" rel="alternate" type="text/html" title="Dominion Land Survey in British Columbia" /><published>2019-08-10T00:00:00-07:00</published><updated>2019-08-10T00:00:00-07:00</updated><id>http://localhost:4000/DLS-in-British-Columbia</id><content type="html" xml:base="http://localhost:4000/DLS-in-British-Columbia">&lt;p&gt;&lt;b&gt;When describing the early history of mapping North America, it’s necessary to at the very least acknowledge the indigenous people who occupied the continent before European settlement and subsequent efforts to survey and inventory land, with goals to extract natural resources or promote European settlement. Much of the early mapping of the Americas was initiated and conducted without adequate regard for indigenous occupants of the land, including the maps described here. I do not mean to imply that western definitions and descriptions of “North America”, “The Dominion”, “British Columbia”, etc., through surveying and mapping reflect a complete history or rightful “ownership”.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Rectangular surveying of North America began in 1785 with the United States’ Public Land Survey System (PLSS). and later in Canada in the 1840s under the Dominion Land Survey (DLS). The idea was to divide the land into sections and describe them for new settlement by European Americans.&lt;/p&gt;
+
+&lt;p&gt;The typical landscape of British Columbia doesn’t cooperate with methods of producing a rectangular survey. Unlike in the Canadian Prairie Provinces and the American Midwest and Great Plains regions, where the horizon stays flat, BC’s mountains were a barrier to on-the-ground efforts by new Canadians to inventory land resources.&lt;/p&gt;
+
+&lt;p&gt;Rectangular surveying, where straight lines are used to diagram a natural landscape, is a difficult process in BC’s generally rugged terrain.&lt;/p&gt;</content><author><name>The Review Index</name><email>root@thereviewindex.com</email></author><summary type="html">When describing the early history of mapping North America, it’s necessary to at the very least acknowledge the indigenous people who occupied the continent before European settlement and subsequent efforts to survey and inventory land, with goals to extract natural resources or promote European settlement. Much of the early mapping of the Americas was initiated and conducted without adequate regard for indigenous occupants of the land, including the maps described here. I do not mean to imply that western definitions and descriptions of “North America”, “The Dominion”, “British Columbia”, etc., through surveying and mapping reflect a complete history or rightful “ownership”.</summary></entry><entry><title type="html">Let’s science the sh*t out of Toilet Paper Reviews</title><link href="http://localhost:4000/science-toilet-paper-reviews" rel="alternate" type="text/html" title="Let's science the sh*t out of Toilet Paper Reviews" /><published>2017-11-30T00:00:00-08:00</published><updated>2017-11-30T00:00:00-08:00</updated><id>http://localhost:4000/science-toilet-paper-reviews</id><content type="html" xml:base="http://localhost:4000/science-toilet-paper-reviews">&lt;p&gt;&lt;img src=&quot;img/tp-header.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Toilet papers. A trivial household item, but touches us in our everyday lives. Amazon.com lists over 50 brands of Toilet Papers. With over 9000 product listings, how exactly does one pick the right toilet paper - hopefully in a quantified, scientific way?&lt;/p&gt;
+
+&lt;p&gt;Let us look at the possible methods of evaluation:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Physical / Mechanical tests&lt;/li&gt;
+  &lt;li&gt;Surveys&lt;/li&gt;
+  &lt;li&gt;Reviews&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;physical--mechanical-tests&quot;&gt;Physical / Mechanical Tests&lt;/h3&gt;
+&lt;p&gt;These often involve analyzing the physical characteristics of TP using tests such as the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Water absorption test&lt;/li&gt;
+  &lt;li&gt;Paper strength using mechanical puncturing device&lt;/li&gt;
+  &lt;li&gt;Tearing tests&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/instron.jpg&quot; /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot; class=&quot;fs-08&quot;&gt;&lt;i&gt;&lt;small&gt; Instron - an electomechanical tension / compression device (Image credit: https://instron.us) &lt;/small&gt;&lt;/i&gt;&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;The good part about such types of evaluations is that they can be completely objective. The tests (if conducted properly) can provide objective and precise measurements.&lt;/p&gt;
+
+&lt;p&gt;The issue with this kind of evaluation, though, is that it is often impossible to arrive at tests that can grade each and every aspect of a product or incorporate actual consumer experiences - for example. what kind of a test can be used to quantify “comfort” ?&lt;/p&gt;
+
+&lt;h3 id=&quot;surveys&quot;&gt;Surveys&lt;/h3&gt;
+&lt;p&gt;A possible solution to the above problem, is to perhaps involve the consumers in the grading process - after all who better to measure the product than the end users of the product itself!&lt;/p&gt;
+
+&lt;p&gt;Surveys work great if designed right. However, designing the right survey to incite unbiased responses can be challenging due to factors like &lt;a href=&quot;https://en.wikipedia.org/wiki/Response_bias&quot;&gt;Response Bias&lt;/a&gt;. Even if we were to be able to come up with a questionnaire that records participants true responses across all aspects of the product, keeping it updated over time can get challenging.&lt;/p&gt;
+
+&lt;h3 id=&quot;reviews&quot;&gt;Reviews&lt;/h3&gt;
+&lt;p&gt;Reviews are informative nuggets of free text and are already available for most products that are sold on the internet. They are the voice of the consumers in a public forum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;” People often talk about the things they care about “&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;… and the same is true for online reviews.&lt;/p&gt;
+
+&lt;p&gt;By itself, a single review represents an individual’s experience - but these become even more interesting when we start to look at repeated patterns across many reviews.&lt;/p&gt;
+
+&lt;p&gt;What if we could use this information to scientifically come up with conclusions about the product?&lt;/p&gt;
+
+&lt;p&gt;Using Neural Networks + Natural Language Processing, it is possible to extract the topics and sentiment, enabling us to quantify objective metrics for the product.&lt;/p&gt;
+
+&lt;p&gt;Now let’s try and analyze TP reviews from Amazon.com.&lt;/p&gt;
+
+&lt;p&gt;After crawling Amazon.com to gather reviews, we need to preprocess the data to address the following issues:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Unverified reviews - These are reviews by people who have not bought the product from the marketplace. Since there is no evidence that these buyers are genuine, we do not consider them.&lt;/li&gt;
+  &lt;li&gt;Old reviews - Consumer expectations and products change over time. Keeping this in mind, we remove reviews that are more than a couple of years old.&lt;/li&gt;
+  &lt;li&gt;Review spam - many brands and sellers create “fake” reviews or incentivize reviewers by giving away free samples of their products. This results in significant biases creeping into the review data of a product. We can mitigate this using outlier detection on the reviewer history to identify products that have significant spammy reviews.&lt;/li&gt;
+  &lt;li&gt;Product variants - Some websites like Amazon group reviews of a bunch of products into the same listing - thankfully, Amazon does provide a (somewhat hidden - “show only this format”) option to filter the reviews by variant.&lt;/li&gt;
+  &lt;li&gt;Too few reviews - it is difficult to draw meaningful conclusions based on a small number of reviews, hence for this blog post, we discard products with fewer than 200 reviews.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After the above clean ups, we end up with 29574 reviews across 274 products (only considering upto 1000 most recent reviews for each product).&lt;/p&gt;
+
+&lt;p&gt;We can now cluster the review sentences to extract the most spoken about topics in the reviews. Following are the recurring topics that start to emerge:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;td&gt;
+    TOPIC CLUSTERS
+  &lt;/td&gt;
+  &lt;td&gt;
+    SAMPLE PHRASES
+  &lt;/td&gt;
+  &lt;tr class=&quot;fc-light&quot;&gt;
+    &lt;td&gt;Overall&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;the product was great&quot;, &quot;did the job&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&quot;fc-light&quot;&gt;
+    &lt;td&gt;Marketplace / Delivery &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;was delivered on time&quot;, &quot;doorstep delivery&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Paper Quality&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;strong&quot;, &quot;durable&quot;, &quot;doesn't tear&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Comfort&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;soft&quot;, &quot;cushy&quot;, &quot;softest TP out there&quot;, &quot;little ruff on the bum&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Value For Money&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;worth the price&quot;, &quot;bargain&quot;, &quot;rip off&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Lasts Long&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;lasts forever&quot;, &quot;ran out in a day&quot;, &quot;larger than expected&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cleaning&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;squeaky clean bum&quot;, &quot;leaves quite a bit of fuzz behind&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Clogging&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;clogs the sewer line&quot;, &quot;gentle on the plumbing&quot;, &quot;had to use the plunger&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Dispenser&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;barely fit my holder&quot;, &quot;might not fit in your dispenser&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&quot;fc-light&quot;&gt;
+    &lt;td&gt;Gag Gift&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;gag gift for my roommate&quot;, &quot;gift as a prank&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&quot;fc-light&quot;&gt;
+    &lt;td&gt;Eco-Friendly&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;environmentally friendly&quot;, &quot;made of recycled paper&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&quot;fc-light&quot;&gt;
+    &lt;td&gt;Travel&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;carry in your purse or pocket&quot;, &quot;great for travel&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&quot;fc-light&quot;&gt;
+    &lt;td&gt;Perfumed TPs&lt;/td&gt;
+    &lt;td&gt;&lt;i&gt;&quot;smell is so strong&quot;, &quot;smell soooooo good&quot;&lt;/i&gt; ...&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;For the purpose of this exercise, we will not consider the top two topics in the above list - reason being that the “Overall Product” statements are too generic, loosely used and volume-wise dominates every other topic, and the “Marketplace / Delivery” topic is not directly related to the product. We discard the (bottom four) low volume clusters as well.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the final set of clusters with their volume distribution:&lt;/p&gt;
+
+&lt;div class=&quot;show-only-small&quot; align=&quot;center&quot;&gt;
+  &lt;iframe width=&quot;314&quot; height=&quot;194&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1811714180&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;show-only-large&quot; align=&quot;center&quot;&gt;
+  &lt;iframe width=&quot;575.4219664768625&quot; height=&quot;355.4349555051674&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1061894387&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All the cluster sentences are then passed through our custom sentiment classifier to arrive at the positive and negative polarity. This gives us a topic-wise polarity of the products. We can now start to compare topics across products to arrive at an overall product ranking.&lt;/p&gt;
+
+&lt;p&gt;The &lt;span class=&quot;fw-400&quot;&gt;best&lt;/span&gt; products, according to our analysis are (&lt;a href=&quot;https://www.amazon.com//dp/B00YMVI5DC&quot;&gt;#1&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com//dp/B00XSFLOCC&quot;&gt; #2&lt;/a&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;show-only-small&quot;&gt;
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=699489827&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=291609438&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&quot;show-only-large&quot;&gt;
+  &lt;div class=&quot;parent&quot;&gt;
+    &lt;div align=&quot;center&quot; style=&quot;width:50%&quot;&gt;
+      &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=699489827&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+    &lt;div align=&quot;center&quot; style=&quot;width:50%&quot;&gt;
+      &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=291609438&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;… and the &lt;span class=&quot;fw-400&quot;&gt;worst&lt;/span&gt; products on our list are (&lt;a href=&quot;https://www.amazon.com//dp/B01GTNVWYO&quot;&gt;#243&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com//dp/B01B4N9Y6C&quot;&gt; #242&lt;/a&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;show-only-small&quot;&gt;
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1405553136&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+
+  &lt;/div&gt;
+
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=151801927&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&quot;show-only-large&quot;&gt;
+  &lt;div class=&quot;parent&quot;&gt;
+    &lt;div align=&quot;center&quot; style=&quot;width:50%&quot;&gt;
+      &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1405553136&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+    &lt;div align=&quot;center&quot; style=&quot;width:50%&quot;&gt;
+      &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=151801927&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note that &lt;span class=&quot;fw-400&quot;&gt;we not only have a ranking, but also a justification&lt;/span&gt; - for example the worst product is a Tubeless TP, which seems to have a lot of holder / dispenser related compaints.&lt;/p&gt;
+
+&lt;p&gt;We can even sort by any topic and pick the topic-wise best products, for example the best TPs for preventing &lt;span class=&quot;fw-400&quot;&gt;clogging&lt;/span&gt; are (&lt;a href=&quot;https://www.amazon.com//dp/B00ZTJ25XW&quot;&gt;Clog #1&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com//dp/B01BT3U312&quot;&gt;Clog #2&lt;/a&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;show-only-small&quot;&gt;
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=883957297&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1522105939&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&quot;show-only-large&quot;&gt;
+  &lt;div class=&quot;parent&quot;&gt;
+    &lt;div align=&quot;center&quot; style=&quot;width:50%&quot;&gt;
+      &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=883957297&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+    &lt;div align=&quot;center&quot; style=&quot;width:50%&quot;&gt;
+      &lt;iframe width=&quot;289.11044270195214&quot; height=&quot;369&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vT5hb9t8AfkVUi_PRbPJYwLk7JCTr6JbWvr4b2Zo0q4Cllw-73chBJw5rg46gjwA5yrfaH1XHWrTGtl/pubchart?oid=1522105939&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Why stop at just toilet papers?&lt;/p&gt;
+
+&lt;p&gt;We at &lt;a href=&quot;https://thereviewindex.com&quot;&gt;The&lt;span class=&quot;fw-400&quot;&gt;Review&lt;/span&gt;Index.com&lt;/a&gt; believe that similar techniques can be used for analyzing all kinds of reviews - which is why we’ve just launched a tool that creates spam filtered review summaries for any Amazon.com electronic / gadget / appliance.&lt;/p&gt;
+
+&lt;p&gt;You can try it out here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thereviewindex.com&quot;&gt;https://thereviewindex.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/shopping.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>The Review Index</name><email>root@thereviewindex.com</email></author><summary type="html"></summary></entry><entry><title type="html">Frequently Asked Questions - TheReviewIndex</title><link href="http://localhost:4000/frequently-asked-questions" rel="alternate" type="text/html" title="Frequently Asked Questions - TheReviewIndex" /><published>2017-11-22T00:00:00-08:00</published><updated>2017-11-22T00:00:00-08:00</updated><id>http://localhost:4000/frequently-asked-questions</id><content type="html" xml:base="http://localhost:4000/frequently-asked-questions">&lt;p&gt;What is TheReviewIndex all about?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It’s impossible to make sense of that many reviews, let alone compare across products.
+So we built &lt;a href=&quot;https://thereviewindex.com&quot;&gt;The Review Index&lt;/a&gt; that uses Neural Networks to detect and quantify recurring patterns in reviews, enabling one to go through thousands of reviews in a few minutes. We are unbiased, independent and aspire to simplify online shopping.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How does it work?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All you have to do is enter the url of the product you’re looking to purchase. Our machines will, at real time, fetch the lastest user reviews from sites like Amazon. Then, the fetched reviews will be parsed to detect fine-grained topics and implicit sentiment, after blacklisting potentially unnatural content. This information will be churned and presented as an unbiased, feature-wise summary scorecard of the aggregate opinion.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Where does TheReviewIndex get the data?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TheReviewIndex requires data such as product details, reviews, etc. We crawl all available information from across various public webpages. This data is then churned to get presentable insights.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I noticed some discrepencies in the data quality? What do I do?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We leverage Neural Networks to detect topics of discussion and sentiment in review sentences and constantly monitor the quality of algorithms and data to maximize accuracy and ensure that outliers do not influence the eventual conclusions. 
+However, it is still possible that there will be a few cases of incorrect classification. &lt;br /&gt;
+If you discover any large discrepencies or quality issues, you can provide feedback using the link provided in the site or write to us at &lt;strong&gt;root@thereviewindex.com&lt;/strong&gt; with the details and we will take these inputs into consideration while tweaking our algorithms.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How can I trust TheReviewIndex? How do I know that the evaluation is fair?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We have deliberated over this question from the very beginning. Since building and keeping trust with you is very important to us, we have designed the product to ensure that every score or recommendation is strongly supported by solid evidence. If you want to drill deeper, you can click through and read all individual user comments that contributes toward the score of each feature. Not just that, all these comments are properly attributed and linked back to the origin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How does the site make money?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We do not make any money from the site. The site has been and will always remain free for our users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How do you deal with review spam?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the major concerns of online opinions is the problem of spam and incentivized reviews. Although, a single spammy review does not receive too much importance (since we rely on mass opinion for making our judgements), several spammy reviews can be misleading, often drowning actual user opinion.
+We think that spam, much like any other crime, will leave behind a trail. This is true especially when spamming is done at scale. We try to identify these and in the spirit of transparency (like rest of the site), we are starting to expose the underlying data points that contributed to our decision.
+Right now we expose only a few of signals out, but we will be rolling out a more comprehensive set of signals in the near future.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m a brand and my product is rated poorly. What can I do?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Short answer is nothing. We rely on user reviews from marketplaces to derive and present our conclusions. As the sentiment in organic reviews improves, our summaries will improve too.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Have more questions? Send them out to &lt;strong&gt;root@thereviewindex.com&lt;/strong&gt; and we will revert as soon as possible.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name>The Review Index</name><email>root@thereviewindex.com</email></author><summary type="html">What is TheReviewIndex all about?</summary></entry><entry><title type="html">Hello World - TheReviewIndex</title><link href="http://localhost:4000/hello-world" rel="alternate" type="text/html" title="Hello World - TheReviewIndex" /><published>2017-11-10T00:00:00-08:00</published><updated>2017-11-10T00:00:00-08:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world">&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Hi there, motherfucker.&lt;/p&gt;
+
+&lt;p&gt;We are TheReviewIndex.&lt;/p&gt;
+
+&lt;p&gt;We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It’s impossible to make sense of that many reviews, let alone compare across products.&lt;/p&gt;
+
+&lt;p&gt;So we built &lt;a href=&quot;https://thereviewindex.com&quot;&gt;The Review Index&lt;/a&gt; that uses Neural Networks to detect and quantify recurring patterns in reviews, enabling one to go through thousands of reviews in a few minutes.&lt;/p&gt;
+
+&lt;p&gt;Also - we call out products with significant volumes of spam / fake reviews so that one doesn’t end up trusting them.&lt;/p&gt;
+
+&lt;p&gt;We recently launched a public beta for Amazon (US) electronic / gadget / appliance reviews, and are iterating over the website and algorithms. We will expand to include other marketplaces soon.&lt;/p&gt;
+
+&lt;p&gt;There is a lot of data waiting to be churned and presented - stay tuned!&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name>The Review Index</name><email>root@thereviewindex.com</email></author><summary type="html"> </summary></entry></feed>
