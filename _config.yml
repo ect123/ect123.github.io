@@ -1,7 +1,7 @@
 # Site settings
 title: Evan Thornberry
 description: "Evan's site for sharing thoughts on GIS in Libraries, Maps and and other stuff. ."
-url: "https://ect123.github.io/"
+url: "https:evanthornberry.org"
 ogimage: "img/default-ogimage.png"
 author:
   name: "Evan"
