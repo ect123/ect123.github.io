@@ -1,7 +1,7 @@
 # Site settings
-title: Evan Thornberry
-description: "Evan's site for sharing thoughts on GIS in Libraries, Maps and and other stuff. ."
-url: "https:evanthornberry.org"
+title: Welcome to EVAN.TOWN
+description: "Maps, GIS, hikes, bikes, etc."
+url: "https://evan.town"
 ogimage: "img/default-ogimage.png"
 author:
   name: "Evan"

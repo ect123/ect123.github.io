@@ -9,8 +9,8 @@ description: Info
 
 &nbsp;
 
-My name is Evan Thornberry and this is my Swiss Army site. I'll post about my experiences working with library map and GIS services and resources.
+Here's my [CV](#). If you need more info, send me an email: evanthornberry at gmail.
 
-This site was built with [Jekyll](https://jekyllrb.com/), and uses [Monochrome](https://github.com/dyutibarma/monochrome).
+This site was built with [Jekyll](https://jekyllrb.com/), and uses [Monochrome](https://github.com/dyutibarma/monochrome). Thank you GitHub for the free hosting.
 
 &nbsp;
