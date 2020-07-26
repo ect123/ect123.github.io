@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>satellite map</title>
+<title>Elk River Trail</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"></script>
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css" rel="stylesheet" />
@@ -54,11 +54,12 @@ var bridge = {
 
 var map = new mapboxgl.Map({
 		container: 'map',
-		zoom: 13,
+		zoom: 12.5,
 		center: [-124.114842, 40.67404],
 		style: 'mapbox://styles/ect123/ck4ym048y4upi1cmzoq53immx'
 });
-
+map.scrollZoom.disable();
+map.addControl(new mapboxgl.NavigationControl());
 map.on('load', function() {
 
 	map.addSource('trailhead', {

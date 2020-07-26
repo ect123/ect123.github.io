@@ -1,0 +1,131 @@
+---
+layout: default
+title: Hikes of 2020
+description: Hikes of 2020
+---
+<html>
+<head>
+
+</head>
+<body>
+<h2>My Hikes of 2020</h2>
+<p>These are the hikes I tried to do in 2020 (and a couple in late December 2019), and I've included links to any posts I made about them.</p>
+<br>
+<table id="table1" cellspacing="0" width="100%">
+  <thead>
+    <tr style="text-align: left;">
+      <th onclick="sort(0)">Hike
+      </th>
+      <th onclick="sort(1)">Location
+      </th>
+      <th onclick="sort(2)">Distance (miles)
+      </th>
+      <th onclick="sort(3)">Time
+      </th>
+      <th onclick="sort(4)">Elevation Gain (ft)
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Elk River / Headwaters Reserve</td>
+      <td>Eureka, California</td>
+      <td>11.0</td>
+      <td>3:17:22</td>
+      <td>2557</td>
+    </tr>
+    <tr>
+      <td>Miner's Ridge / Fern Canyon</td>
+      <td>Orick, California</td>
+      <td>7.0</td>
+      <td>2:27:04</td>
+      <td>1120</td>
+    </tr>
+    <tr>
+      <td>Elk River / Headwaters Reserve</td>
+      <td>Eureka, California</td>
+      <td>11.0</td>
+      <td>3:17:22</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Elk River / Headwaters Reserve</td>
+      <td>Eureka, California</td>
+      <td>30</td>
+      <td>3:17:22</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Elk River / Headwaters Reserve</td>
+      <td>Eureka, California</td>
+      <td>100</td>
+      <td>3:17:22</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Elk River / Headwaters Reserve</td>
+      <td>Eureka, California</td>
+      <td>11.0</td>
+      <td>3:17:22</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+function sort(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("table1");
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "asc";
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

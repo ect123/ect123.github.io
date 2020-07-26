@@ -4,3 +4,7 @@
 
 //Import
 @import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+
+p.top {
+  margin-top: 70px;
+}

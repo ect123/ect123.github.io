@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Evan Thornberry</title>
+ <title>Welcome to EVAN.TOWN</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2020-01-03T13:50:44-08:00</updated>
+ <updated>2020-07-26T15:32:26-07:00</updated>
  <author>
    <name>Evan</name>
    <uri></uri>
    <email></email>
  </author>
+
+ 
+
+ <entry>
+   <title>Vintage Schwinn Typhoon Rebuild</title>
+   <link href="http://localhost:4000/schwinn-typhoon-rebuild"/>
+   <id>http://localhost:4000/schwinn-typhoon-rebuild</id>
+   <updated>2020-07-26T00:00:00-07:00</updated>
+   <content type="html">&lt;p&gt;I recently finished rebuilding my grandfather’s Schwinn Typhoon. The project involved, taking the entire bike apart, regreasing all of the headset and crankset bearings, cleaning and polishing metal pieces, and reassembling the whole thing with modern parts where necessary. I didn’t repaint or chrome anything, and like how the “garage”...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Elk River Trail / Headwaters Forest Reserve</title>
+   <link href="http://localhost:4000/elk-river-trail-headwaters-reserve"/>
+   <id>http://localhost:4000/elk-river-trail-headwaters-reserve</id>
+   <updated>2020-01-04T00:00:00-08:00</updated>
+   <content type="html">&lt;p&gt;This hike starts at the Elk River Trailhead, which is at the end of Elk River Road just south of Eureka, California. The exit from US 101 is marked with a brown sign indicating the Headwaters Forest Preserve, so it’s pretty easy to find. The drive to the trailhead is...</content>
+ </entry>
 
  
 

@@ -24,3 +24,38 @@
 #nav-menu {
   display:none !important;
 }
+
+.cv-header {
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.cv-sidebar {
+  float: left;
+  height: 100px;
+  width: 25%;
+}
+
+.cv-content {
+  width: 80%;
+  margin-bottom: 18px;
+  float: left;
+  line-height: 28px;
+  //background-color: #F5CF8E;   /* Yellow */
+}
+
+.cv-dates {
+  text-align: center;
+  width: 19%;
+  margin-bottom: 18px;
+  margin-left: 1%;
+  float: left;
+  //background-color: #D6E9FE;    /* Light blue */
+}
+.cv-section {
+    width: 100%;
+    margin: 0 auto;
+}

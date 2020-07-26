@@ -1,4 +1,5 @@
 # Site settings
+future: true
 title: Welcome to EVAN.TOWN
 description: "Maps, GIS, hikes, bikes, etc."
 url: "https://evan.town"
@@ -11,7 +12,7 @@ author:
 
 # Build settings
 baseurl: /
-blog: /thoughts/
+blog:
 markdown: kramdown
 source: .
 destination: ./_site
