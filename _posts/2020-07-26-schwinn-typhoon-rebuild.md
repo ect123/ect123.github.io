@@ -18,6 +18,6 @@ Finding 1/2" pedals (as opposed to modern 9/16") has been the biggest headache. 
 
 !["Vintange Schwinn Typhoon front"](../img/schwinn-typhoon-front.JPG)
 
-The 13/16 To 7/8-Inch seat post is made by Wald, and is topped with a Velo seat clamp. Attached to that is the Brooks B72 saddle.    
+The 13/16" to 7/8" seat post is made by Wald, and is topped with a Velo seat clamp. Attached to that is the Brooks B72 saddle.    
 
 [Sheldon Brown's site](https://www.sheldonbrown.com/harris/opc.html) was of huge importance in demystifying old Schwinn bike component sizing, and whether or not anything could be replaced for modern parts. [RJ The Bike Guy](https://www.youtube.com/channel/UCaAK2FaxQ2xiBbAUVZsvDYQ) always seems to have a YouTube video ready for me when I wonder how to rebuild or recombobulate an older part.
