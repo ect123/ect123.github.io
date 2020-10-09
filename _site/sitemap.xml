@@ -15,9 +15,6 @@
 <loc>http://localhost:4000/cv</loc>
 </url>
 <url>
-<loc>http://localhost:4000/archive/hikes-of-2020-test</loc>
-</url>
-<url>
 <loc>http://localhost:4000/archive/hikes-of-2020</loc>
 </url>
 <url>
@@ -29,9 +26,5 @@
 <url>
 <loc>http://localhost:4000/maps/hikes/2019-12-25-map.html</loc>
 <lastmod>2020-02-15T16:45:49-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/maps/simple-map.html</loc>
-<lastmod>2019-12-29T14:13:54-08:00</lastmod>
 </url>
 </urlset>
