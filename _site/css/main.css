@@ -17,38 +17,25 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
 html {
   background-color: #FFFFFF;
   font-size: 16px;
-  line-height: 1.8em;
-  color: #000000; }
+  line-height: 1.8;
+  color: #333333; }
   @media (min-width: 940px) {
     html {
       font-size: 18px; } }
 
 body {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 10px; }
 
 /*- Link -*/
 a {
-  color: #3366cc;
-  text-decoration: none;
-  font-weight: 400; }
+  color: #333333;
+  text-decoration: underline;
+  font-weight: 700; }
   a:hover, a:focus {
-    color: black; }
+    color: #262626; }
 
-/* Media Queries */
-@media screen and (max-width: 600px) {
-  .show-only-large {
-    display: none; }
-
-  .show-only-small {
-    display: block; } }
-@media screen and (min-width: 600px) {
-  .show-only-large {
-    display: block; }
-
-  .show-only-small {
-    display: none; } }
 /* Common classes */
 .f-right {
   float: right; }
@@ -98,33 +85,6 @@ a {
 
 .left {
   left: 0; }
-
-.m-t-6e {
-  margin-top: 6em; }
-
-.fw-300 {
-  font-weight: 300; }
-
-.fw-400 {
-  font-weight: 400; }
-
-.fw-500 {
-  font-weight: 500; }
-
-.fs-12e {
-  font-size: 1.2em; }
-
-.fc-light {
-  color: #777777; }
-
-.border-l-l {
-  border-left: 1px solid #f2f2f2; }
-
-.code {
-  font-family: monospace; }
-
-td {
-  border-bottom: 1px solid #f2f2f2; }
 
 /*- Typography -*/
 body {
@@ -226,7 +186,7 @@ blockquote {
 /* Navigation */
 #nav a, #nav-left a {
   display: block;
-  color: #000000;
+  color: #333333;
   padding: 0.33334em 0;
   font-size: 1.5em;
   font-weight: 400; }
@@ -298,20 +258,18 @@ blockquote {
     display: none; } }
 #nav-links a {
   padding-left: 10px;
-  color: #000000;
+  color: #333333;
   font-weight: 300; }
 
-/* Separator after menu
-
+/* Separator after menu */
 #nav-list:after {
   display: block;
   content: '';
   width: 5rem;
   height: 1px;
   margin: 23px auto;
-  background-color: $text-color;
-}
-*/
+  background-color: #333333; }
+
 /* Icon menu */
 #nav-menu {
   display: block;
@@ -338,7 +296,7 @@ blockquote {
 #menu {
   height: 4px;
   width: 1.5em;
-  background-color: #000000;
+  background-color: #333333;
   margin-top: 8px; }
   #menu:after, #menu:before {
     content: "";
@@ -346,7 +304,7 @@ blockquote {
     position: relative;
     height: 4px;
     width: 1.5em;
-    background-color: #000000;
+    background-color: #333333;
     transition: all 0.3s ease-in; }
   #menu:before {
     top: -8px; }
@@ -360,14 +318,14 @@ blockquote {
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #000000; }
+    background-color: #333333; }
   #menu.btn-close:after {
     top: -4px;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #000000; }
+    background-color: #333333; }
 
 /* Main content */
 .fixed {
@@ -383,7 +341,7 @@ blockquote {
 #header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   height: 5em;
   position: relative; }
   #header a {
@@ -414,11 +372,11 @@ blockquote {
   width: 5rem;
   height: 1px;
   margin: 23px auto;
-  background-color: #b3b3b3; }
+  background-color: #e6e6e6; }
 
 .by-line {
   display: block;
-  color: #404040;
+  color: #737373;
   line-height: 1.8em;
   margin-bottom: 1.5em;
   /* 24px/16px */
@@ -426,7 +384,7 @@ blockquote {
   @media (min-width: 940px) {
     .by-line {
       display: block;
-      color: #404040;
+      color: #737373;
       line-height: 1.8em;
       margin-bottom: 1.3334em;
       /* 24px/18px */
@@ -446,7 +404,7 @@ img[title="Monochrome"] {
   box-shadow: 0 2px 6px #ddd; }
 
 code {
-  color: #595959;
+  color: #8c8c8c;
   background-color: white; }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
@@ -456,11 +414,6 @@ code {
   @media (min-width: 940px) {
     .content ul, .content ol {
       line-height: 1.8em; } }
-
-/* Social Icons */
-.social-icon {
-  fill: rgba(0, 0, 0, 0.68);
-  height: 29px; }
 
 /* Pages */
 #page ul, #page ol {
@@ -472,12 +425,12 @@ code {
   margin: 2.666668em; }
   .pagination span {
     background-color: #f2f2f2;
-    color: #000000; }
+    color: #333333; }
   .pagination a:hover {
-    background-color: #0d0d0d; }
+    background-color: #404040; }
 
 .page-item {
-  background-color: #1a1a1a;
+  background-color: #4d4d4d;
   color: #FFFFFF;
   padding: 4px 8px;
   font-weight: 400;
@@ -490,7 +443,7 @@ code {
 /* Footer */
 footer {
   background-color: #FFFFFF;
-  color: #000000;
+  color: #333333;
   text-align: center;
   padding: 0.6667em 0; }
 
@@ -768,9 +721,6 @@ footer {
   width: 70%;
   margin: auto;
   text-align: center; }
-
-#nav-menu {
-  display: none !important; }
 
 .cv-header {
   margin: auto;

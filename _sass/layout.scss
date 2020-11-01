@@ -50,7 +50,7 @@
   }
 }
 
-/* Separator after menu
+/* Separator after menu */
 
 #nav-list:after {
   display: block;
@@ -60,7 +60,6 @@
   margin: 23px auto;
   background-color: $text-color;
 }
-*/
 
 /* Icon menu */
 
@@ -136,7 +135,7 @@
 #header {
   border-bottom:  1px solid rgba(0,0,0,0.14);
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   height: 5em;
   position: relative;
   a {
@@ -223,13 +222,6 @@ code {
   @media (min-width: 940px) {
     line-height: 1.8em;
   }
-}
-
-/* Social Icons */
-.social-icon
-{
-  fill: rgba(0,0,0,0.68);
-  height: 29px;
 }
 
 /* Pages */
