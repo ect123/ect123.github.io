@@ -2,7 +2,8 @@
 
 /* Navigation */
 
-#nav, #nav-left {
+#nav,
+#nav-left {
   a {
     display: block;
     color: $text-color;
@@ -17,8 +18,8 @@
     }
   }
   span {
-      font-weight: 200;
-    }
+    font-weight: 200;
+  }
 }
 
 #nav {
@@ -41,12 +42,12 @@
 
 #nav-links {
   @media (max-width: 940px) {
-    display:none;
+    display: none;
   }
   a {
     padding-left: 10px;
     color: $text-color;
-    font-weight: 300
+    font-weight: 300;
   }
 }
 
@@ -54,7 +55,7 @@
 
 #nav-list:after {
   display: block;
-  content: '';
+  content: "";
   width: 5rem;
   height: 1px;
   margin: 23px auto;
@@ -66,14 +67,14 @@
 #nav-menu {
   @include icon-position(right);
   @media (min-width: 940px) {
-    display:none;
+    display: none;
   }
 }
 
 #nav-menu-left {
   @include icon-position(left);
   @media (min-width: 940px) {
-    display:none;
+    display: none;
   }
 }
 
@@ -82,7 +83,8 @@
   width: 1.5em;
   background-color: $text-color;
   margin-top: 8px;
-  &:after, &:before {
+  &:after,
+  &:before {
     content: "";
     display: block;
     position: relative;
@@ -103,17 +105,17 @@
   &.btn-close:before {
     top: 0;
     -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     background-color: $text-color;
   }
   &.btn-close:after {
     top: -4px;
     -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     background-color: $text-color;
   }
 }
@@ -129,18 +131,19 @@
 }
 
 #container {
-	margin:0 auto;
+  margin: 0 auto;
 }
 
 #header {
-  border-bottom:  1px solid rgba(0,0,0,0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   text-align: center;
   margin-bottom: 3em;
+  margin-top: 1em;
   height: 5em;
   position: relative;
   a {
-  	text-decoration: none;
-  	display: inline-block;
+    text-decoration: none;
+    display: inline-block;
   }
   div {
     margin: 0 auto;
@@ -166,18 +169,18 @@
 #post-page {
   margin-bottom: 1.5em;
   @media (min-width: 940px) {
-      margin-bottom: 1.3334em;
-    }
+    margin-bottom: 1.3334em;
+  }
 }
 
-.post+.post:before {
-    display: block;
-    content: '';
-    width: 5rem;
-    height: 1px;
-    margin: 23px auto;
-    background-color: lighten($text-color, 70%);
-  }
+.post + .post:before {
+  display: block;
+  content: "";
+  width: 5rem;
+  height: 1px;
+  margin: 23px auto;
+  background-color: lighten($text-color, 70%);
+}
 
 .by-line {
   display: block;
@@ -200,14 +203,14 @@ img {
   margin: 0 auto;
   margin-bottom: 24px;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
 }
 
 img[title="Monochrome"] {
-    box-shadow: 0 2px 6px #ddd;
-  }
+  box-shadow: 0 2px 6px #ddd;
+}
 
 code {
   color: lighten($text-color, 35%);
@@ -216,7 +219,8 @@ code {
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
 
-.content ul, .content ol {
+.content ul,
+.content ol {
   line-height: 1.8em;
   padding-left: 1.5em;
   @media (min-width: 940px) {
@@ -226,7 +230,8 @@ code {
 
 /* Pages */
 
-#page ul, #page ol {
+#page ul,
+#page ol {
   padding-left: 1.5em;
 }
 
@@ -250,9 +255,9 @@ code {
   font-weight: 400;
   padding: 0.5em 1em;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Footer */
