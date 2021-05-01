@@ -42,10 +42,10 @@ body {
 
 /*- Link -*/
 a {
-  color: #8FBCBB;
+  color: #81A1C1;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #7fb2b1; }
+    color: #7094b9; }
 
 /* Common classes */
 .f-right {
@@ -195,18 +195,22 @@ blockquote {
       /* 24px/18px */ } }
 /* -- General Layout -- */
 /* Navigation */
-#nav a, #nav-left a {
+#nav a,
+#nav-left a {
   display: block;
   color: #434C5E;
   padding: 0.33334em 0;
   font-size: 1.5em;
   font-weight: 400; }
   @media (min-width: 940px) {
-    #nav a, #nav-left a {
+    #nav a,
+    #nav-left a {
       font-size: 1em; } }
-  #nav a:hover, #nav-left a:hover {
+  #nav a:hover,
+  #nav-left a:hover {
     background-color: #576279; }
-#nav span, #nav-left span {
+#nav span,
+#nav-left span {
   font-weight: 200; }
 
 #nav {
@@ -275,7 +279,7 @@ blockquote {
 /* Separator after menu */
 #nav-list:after {
   display: block;
-  content: '';
+  content: "";
   width: 5rem;
   height: 1px;
   margin: 23px auto;
@@ -353,6 +357,7 @@ blockquote {
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   text-align: center;
   margin-bottom: 3em;
+  margin-top: 1em;
   height: 5em;
   position: relative; }
   #header a {
@@ -379,7 +384,7 @@ blockquote {
 
 .post + .post:before {
   display: block;
-  content: '';
+  content: "";
   width: 5rem;
   height: 1px;
   margin: 23px auto;
@@ -419,15 +424,18 @@ code {
   background-color: white; }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
-.content ul, .content ol {
+.content ul,
+.content ol {
   line-height: 1.8em;
   padding-left: 1.5em; }
   @media (min-width: 940px) {
-    .content ul, .content ol {
+    .content ul,
+    .content ol {
       line-height: 1.8em; } }
 
 /* Pages */
-#page ul, #page ol {
+#page ul,
+#page ol {
   padding-left: 1.5em; }
 
 /* Paginator */
@@ -718,6 +726,9 @@ footer {
 
 /* Literal.Number.Integer.Long */
 /*- Custom style -*/
+/* Nord Theme for pallatte */
+/* Bootstrap 5 for UI and controls if needed */
+/* TO DO */
 #title {
   text-align: center;
   margin: 100px 0px 0px 0px; }

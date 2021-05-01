@@ -59,12 +59,12 @@ body {
 
 /*- Link -*/
 a {
-  color: $nord7;
+  color: $nord9;
   text-decoration: none;
   // font-weight: 700;
   &:hover,
   &:focus {
-    color: darken($nord7, 5%);
+    color: darken($nord9, 5%);
   }
 }
 
