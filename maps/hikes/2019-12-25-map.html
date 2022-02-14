@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Elk River Trail</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNranAwN2V5cjA0OGwyc3RjMG81YmY5dzAifQ.E1gXN2BWib0Z0pnS95iOtg";
+
+      var trailhead = {
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            properties: {
+              description: "Elk River Trailhead"
+            },
+            geometry: {
+              type: "Point",
+              coordinates: [-124.140836, 40.692064]
+            }
+          }
+        ]
+      };
+
+      var bridge = {
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            properties: {
+              description: "Bridge"
+            },
+            geometry: {
+              type: "Point",
+              coordinates: [-124.10003364086151, 40.67350824369096]
+            }
+          }
+        ]
+      };
+
+      var map = new mapboxgl.Map({
+        container: "map",
+        zoom: 12.5,
+        center: [-124.114842, 40.67404],
+        style: "mapbox://styles/ect123/ck4ym048y4upi1cmzoq53immx"
+      });
+      map.scrollZoom.disable();
+      map.addControl(new mapboxgl.NavigationControl());
+      map.on("load", function() {
+        map.addSource("trailhead", {
+          type: "geojson",
+          data: trailhead
+        });
+
+        map.addSource("bridge", {
+          type: "geojson",
+          data: bridge
+        });
+
+        map.addLayer({
+          id: "bigtrees",
+          type: "fill",
+          source: {
+            type: "geojson",
+            data: {
+              type: "Feature",
+              properties: {
+                description: "Big Tree Area"
+              },
+              geometry: {
+                type: "Polygon",
+                coordinates: [
+                  [
+                    [-124.10164833068848, 40.654010857518095],
+                    [-124.09770011901855, 40.654010857518095],
+                    [-124.09770011901855, 40.656973574108115],
+                    [-124.10164833068848, 40.656973574108115],
+                    [-124.10164833068848, 40.654010857518095]
+                  ]
+                ]
+              }
+            }
+          },
+          layout: {},
+          paint: {
+            "fill-color": "#4B7946",
+            "fill-opacity": 0.3
+          }
+        });
+
+        map.addLayer({
+          id: "bigtrees-outline",
+          type: "line",
+          source: {
+            type: "geojson",
+            data: {
+              type: "Feature",
+              properties: {
+                description: "Big Tree Area"
+              },
+              geometry: {
+                type: "Polygon",
+                coordinates: [
+                  [
+                    [-124.10164833068848, 40.654010857518095],
+                    [-124.09770011901855, 40.654010857518095],
+                    [-124.09770011901855, 40.656973574108115],
+                    [-124.10164833068848, 40.656973574108115],
+                    [-124.10164833068848, 40.654010857518095]
+                  ]
+                ]
+              }
+            }
+          },
+          layout: {},
+          paint: {
+            "line-color": "#4B7946",
+            "line-opacity": 1,
+            "line-width": 2
+          }
+        });
+
+        map.addLayer({
+          id: "trail-route",
+          type: "line",
+          source: {
+            type: "geojson",
+            data: "2019-12-25-elk-river-headwaters-park-cleaned.geojson"
+          },
+          layout: {
+            "line-join": "round",
+            "line-cap": "round"
+          },
+          paint: {
+            "line-color": "#FF8484",
+            "line-width": 5,
+            "line-opacity": 0.75,
+            "line-dasharray": [1.5, 2]
+          }
+        });
+
+        map.addLayer({
+          id: "bigtrees-labels",
+          type: "symbol",
+          source: "bigtrees",
+          paint: {
+            "text-color": "#4b7946",
+            "text-halo-color": "#fff",
+            "text-halo-width": 1
+          },
+          layout: {
+            "text-size": 22,
+            "text-field": ["get", "description"],
+            "text-variable-anchor": ["left", "top", "right", "bottom"],
+            "text-radial-offset": 2,
+            "text-justify": "auto",
+            "icon-image": ["concat", ["get", "icon"], "-15"]
+          }
+        });
+        map.addLayer({
+          id: "trailhead-labels",
+          type: "symbol",
+          source: "trailhead",
+          paint: {
+            "text-color": "#4b7946",
+            "text-halo-color": "#fff",
+            "text-halo-width": 1
+          },
+          layout: {
+            "text-size": 22,
+            "text-field": ["get", "description"],
+            "text-variable-anchor": ["bottom", "top", "right", "left"],
+            "text-radial-offset": 0.5,
+            "text-justify": "auto",
+            "icon-image": ["concat", ["get", "icon"], "-15"]
+          }
+        });
+        map.addLayer({
+          id: "bridge-labels",
+          type: "symbol",
+          source: "bridge",
+          paint: {
+            "text-color": "#4b7946",
+            "text-halo-color": "#fff",
+            "text-halo-width": 1
+          },
+          layout: {
+            "text-size": 22,
+            "text-field": ["get", "description"],
+            "text-variable-anchor": ["left", "top", "right", "left"],
+            "text-radial-offset": 1,
+            "text-justify": "auto",
+            "icon-image": ["concat", ["get", "icon"], "-15"]
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
