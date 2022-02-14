@@ -2,11 +2,13 @@
 layout: article
 title: Curriculum Vitae
 ---
-## Employment
+## Education
 
-## Post-Secondary Education
+## Interests
 
-## Selected Presentations
+## Experience
+
+## Conference Papers and Presentations
 
 ## Selected Workshops
 
