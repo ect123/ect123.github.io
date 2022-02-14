@@ -21,7 +21,7 @@ Semaphore Lakes are several glacial lakes located in Southwestern British Columb
 
 
  <video width="720" controls>
-  <source src="../img/semaphore-lakes/gold-bridge-road-720.mp4" type="video/mp4">
+  <source src="https://media.githubusercontent.com/media/ect123/ect123.github.io/main/img/semaphore-lakes/gold-bridge-road-720.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video> 
 
