@@ -157,7 +157,7 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id: 282957724
+    tracking_id: G-G99G5ECKPX
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 ## => Build
