@@ -2,6 +2,28 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+.mapcontainer { 
+    @apply container mx-auto; 
+}
+
+.featurecontainer { 
+    @apply mt-4;
+    width: 100%;
+}
+
+#features { 
+    overflow: scroll;
+}
+
+#map { 
+    @apply rounded; height: 350px; width: 100%;
+}
+
+#map canvas {
+    cursor: crosshair;
+}
+
+
 @import
 
     "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
@@ -72,3 +94,21 @@
 
     "custom"
 ;
+
+span.num {
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+
+  .map-container {
+    margin: 25px 0px 25px;
+  }
