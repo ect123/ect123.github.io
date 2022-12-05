@@ -1,0 +1,53 @@
+---
+layout: page
+type: map-post
+---
+
+{%- include snippets/assign.html
+    target = site.data.variables.default.page.sharing
+    source0=layout.sharing source1=page.sharing -%}
+  {%- assign _sharing = __return -%}
+  
+  <div class="layout--article">
+    {%- include article/top/custom.html -%}
+
+    <div class="grid" style="text-align: center; margin:40px 0px 40px 0px;">
+
+      <div class="cell cell--3" > <span class="num">{{ page.distance-miles }}</span>
+        <span class="text">MILES</span>
+      </div>
+      <div class="cell cell--3"> <span class="num">{{ page.duration-hr }}:{{ page.duration-min }}</span>
+        <span class="text">HOURS</span>
+      </div>
+      <div class="cell cell--3"> <span class="num">{{ page.elevation-min-ft }}</span>
+        <span class="text">MINIMUM ELEVATION (ft)</span>
+      </div>
+      <div class="cell cell--3"> <span class="num">{{ page.elevation-max-ft }}</span>
+        <span class="text">MAXIMUM ELEVATION (ft)</span>
+      </div>
+    </div>
+  
+  
+    <div class="map-container" id="map"></div>
+
+    <a class="button button--secondary button--pill" style="margin-right:10px;" href="{{page.gpx-url}}">Download GPX</a><a class="button button--secondary button--pill" href="{{page.geojson-url}}">View GeoJSON</a>
+
+    <h1 style="margin-top:50px;">{{ page.trail-name}}</h1>
+    <div class="article__content" itemprop="articleBody">{{ content }}</div>
+
+    {%- if _sharing -%}
+      <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
+    {%- endif -%}
+  
+    <div class="d-print-none">
+      {%- include article-footer.html -%}
+      {%- include article-section-navigator.html -%}
+    </div>
+  
+  </div>
+  
+  <script>
+    {%- include scripts/article.js -%}
+    {%- include scripts/map-container.js -%}
+  </script>
+  
