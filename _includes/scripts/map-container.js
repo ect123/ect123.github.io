@@ -1,7 +1,7 @@
 
 mapboxgl.accessToken = "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNranAwN2V5cjA0OGwyc3RjMG81YmY5dzAifQ.E1gXN2BWib0Z0pnS95iOtg";
 
-const dPath = '{{ page.geojson-url }}'
+const dPath = '{{ site.url }}/{{ page.geojson-url }}'
 
 async function mapData(){
 
