@@ -30,6 +30,10 @@ async function mapData(){
     map.addControl(new mapboxgl.NavigationControl());
     //  Fit to bbox, overwrite the center/zoom
     fit();
+
+    // disable scrool wheel zoom
+    map.scrollZoom.disable();
+ 
     //  On load - add geojson
     map.on('load', function() {
 
@@ -71,5 +75,8 @@ async function mapData(){
         }
 };
 
+
+
 // Call mapData() to initalize the map
 mapData();
+
