@@ -12,6 +12,7 @@ article_header:
 tags: hikes
 geojson-url: maps/hikes/20221105_blanchard_mountain_tracks.geojson
 gpx-url: maps/hikes/20221105_blanchard_mountain_tracks.gpx
+starting-point: 48.616587,-122.386104 
 trailhead-latlong:
 distance-miles: 7.00
 duration-hr: 2
@@ -22,7 +23,7 @@ elevation-total-ascent-ft: 1782
 ---
 ![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-0.jpg)
 
-![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-1.jpg)    
+![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-1.jpg)
 
 ![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-2.jpg)   
 
