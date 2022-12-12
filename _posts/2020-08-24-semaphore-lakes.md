@@ -2,7 +2,7 @@
 layout: article
 title: Semaphore Lakes
 description: 'Semaphore Lakes'
-cover: ../img/semaphore-lakes/cover-lakes.png
+cover: ../img/semaphore-lakes/cover-lakes.th.png
 tags: hikes
 lat:
 long:
