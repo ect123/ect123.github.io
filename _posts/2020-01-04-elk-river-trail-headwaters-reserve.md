@@ -2,7 +2,7 @@
 layout: article
 title: Elk River Trail / Headwaters Forest Reserve
 aside: false
-cover: ../img/elk-river-trail.th.jpeg
+cover: ../img/elk-river-trail.th.jpg
 tags: hikes
 ---
 
