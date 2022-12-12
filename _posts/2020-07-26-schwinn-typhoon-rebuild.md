@@ -3,7 +3,7 @@ layout: article
 title: Vintage Schwinn Typhoon Rebuild
 description: 'Vintage Schwinn Typhoon Rebuild'
 aside: false
-cover: img/schwinn-typhoon/schwinn-typhoon-side.JPG
+cover: img/schwinn-typhoon/schwinn-typhoon-side.th.JPG
 tags: bikes
 ---
 

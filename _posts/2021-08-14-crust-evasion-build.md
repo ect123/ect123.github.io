@@ -2,7 +2,7 @@
 layout: article
 title: Crust Evasion Build 2020
 description: 'Crust Evasion Build 2020'
-cover: img/crust-evasion/evasion-side-view-low.png
+cover: img/crust-evasion/evasion-side-view-low.th.png
 aside: true
 tags: bikes
 ---
