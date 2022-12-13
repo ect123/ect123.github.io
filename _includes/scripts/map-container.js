@@ -3,6 +3,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNranAwN2V5cjA0OGwyc3RjMG81Y
 
 const dPath = '{{ site.url }}/{{ page.geojson-url }}'
 
+
 async function mapData(){
 
     const data = await fetch(dPath, {
@@ -28,6 +29,7 @@ async function mapData(){
                 style: "mapbox://styles/ect123/ck4ym048y4upi1cmzoq53immx"
                 });
     map.addControl(new mapboxgl.NavigationControl());
+
     //  Fit to bbox, overwrite the center/zoom
     fit();
 
@@ -42,6 +44,8 @@ async function mapData(){
         type: 'geojson',
         data: geoJson
         });
+
+     // Create a new marker.
         
     // skeleton outline of the grid
     map.addLayer({
@@ -56,8 +60,9 @@ async function mapData(){
                     'line-width': 5,
                     },
                 });
-    
-
+    const marker2 = new mapboxgl.Marker({ color: '#5e81ac' })
+        .setLngLat([{{ page.starting-point }}])
+        .addTo(map);
 
     // Call fit when clicking the zoomto button
     document.getElementById('zoomto').addEventListener('click', () => {
@@ -65,18 +70,10 @@ async function mapData(){
     });
     });
 
-    // Create an empty marker
-    const marker = new mapboxgl.Marker();
-    // Function to add the marker
-    function add_marker (event) {
-        var coordinates = event.lngLat;
-        console.log('Lng:', coordinates.lng, 'Lat:', coordinates.lat);
-        marker.setLngLat(coordinates).addTo(map);
-        }
+
 };
-
-
 
 // Call mapData() to initalize the map
 mapData();
 
+    
