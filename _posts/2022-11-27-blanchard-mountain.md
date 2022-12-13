@@ -12,7 +12,7 @@ article_header:
 tags: hikes
 geojson-url: maps/hikes/20221105_blanchard_mountain_tracks.geojson
 gpx-url: maps/hikes/20221105_blanchard_mountain_tracks.gpx
-starting-point: 48.616587,-122.386104 
+starting-point: -122.386190, 48.616658 
 trailhead-latlong:
 distance-miles: 7.00
 duration-hr: 2
