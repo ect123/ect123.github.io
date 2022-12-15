@@ -30,7 +30,7 @@ type: map-post
   
     <div class="map-container" id="map"></div>
 
-    <a class="button button--secondary button--pill" style="margin-right:10px;" href="{{page.gpx-url}}">Download GPX</a><a class="button button--secondary button--pill" href="{{page.route-url}}">View GeoJSON</a>
+    <a class="button button--secondary button--pill" style="margin-right:10px;" href="{{page.gpx-url}}">Download GPX</a><a class="button button--secondary button--pill" href="{{page.route-url}}">View GeoJSON</a><a class="button button--success button--pill" style="float:right;" target="_blank" href="https://www.google.com/maps/dir/'{{page.trailhead-lat}},{{page.trailhead-lon}}'/">Directions</a>
 
     <h1 style="margin-top:50px;">{{ page.trail-name}}</h1>
     <div class="article__content" itemprop="articleBody">{{ content }}</div>
