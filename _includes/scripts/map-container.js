@@ -16,7 +16,7 @@ async function mapData(){
     const geoJson = await data.json();
     //  Turf moddule allows us to get the bounding box of a geojson 
     var bbox = turf.extent(geoJson);
-    //  fit() will fit the map to the bounding box of our geojson
+    //  fit() will fit the map to the bounding box of thegeojson
     //  Called later after map is initialized
     function fit() {
                     map.fitBounds(bbox, {padding: 50});
@@ -75,18 +75,22 @@ async function mapData(){
                     'source': 'Data Layer',
                     'layout': {
                         'line-cap': 'round',
+                        'line-join': 'round',
                     },
                     'paint': {
-                        'line-color': '#4c566a',
+                        'line-color': '#d08770',
                         'line-width': 5,
+                        'line-opacity': 0.75,
+                        'line-dasharray': [1.5, 2]
                         },
                     });
+                    
         for (const marker of parking.features) {
                     const el = document.createElement('div');
                     el.className = 'marker';
                     el.style.backgroundImage = `url(img/all_maki_icons/svgs/parking.svg)`;
-                    el.style.width = '30px';
-                    el.style.height = '30px';
+                    el.style.width = '20px';
+                    el.style.height = '20px';
                     el.style.backgroundSize = '100%';
                 
                     // Add parking marker to the map.
