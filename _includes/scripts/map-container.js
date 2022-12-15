@@ -1,7 +1,9 @@
 
 mapboxgl.accessToken = "pk.eyJ1IjoiZWN0MTIzIiwiYSI6ImNranAwN2V5cjA0OGwyc3RjMG81YmY5dzAifQ.E1gXN2BWib0Z0pnS95iOtg";
 
-const dPath = '{{ site.url }}/{{ page.geojson-url }}'
+const dPath = '{{ site.url }}/{{ page.route-url }}';
+const lon = '{{ page.trailhead-lon }}';
+const lat = '{{ page.trailhead-lat }}';
 
 async function mapData(){
 
@@ -19,6 +21,23 @@ async function mapData(){
     function fit() {
                     map.fitBounds(bbox, {padding: 50});
                     }
+    // Create a new parking marker.
+    var parking = {
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            properties: {
+              description: "Parking",
+              iconSize: [60, 60]
+            },
+            geometry: {
+              type: "Point",
+              coordinates: {lon: lon, lat: lat}
+            }
+          }
+        ]
+      };
 
     //  Create the map - zoom and center are arbitrary
     const map = new mapboxgl.Map({
@@ -28,55 +47,56 @@ async function mapData(){
                 style: "mapbox://styles/ect123/ck4ym048y4upi1cmzoq53immx"
                 });
     map.addControl(new mapboxgl.NavigationControl());
+
     //  Fit to bbox, overwrite the center/zoom
     fit();
 
     // disable scrool wheel zoom
     map.scrollZoom.disable();
  
-    //  On load - add geojson
+    //  On load - add route geojson
     map.on('load', function() {
 
-    //  Add the geojson as a map source
+    //  Add the route as a map source
         map.addSource('Data Layer', {
-        type: 'geojson',
-        data: geoJson
+            type: 'geojson',
+            data: geoJson
         });
-        
-    // skeleton outline of the grid
-    map.addLayer({
-                'id': 'route',
-                'type': 'line',
-                'source': 'Data Layer',
-                'layout': {
-                    'line-cap': 'round',
-                },
-                'paint': {
-                    'line-color': '#4c566a',
-                    'line-width': 5,
+    //  Add the parking svg as a map source
+        map.addSource("parking", {
+            type: "geojson",
+            data: parking
+          });
+
+    // route layer
+        map.addLayer({
+                    'id': 'route',
+                    'type': 'line',
+                    'source': 'Data Layer',
+                    'layout': {
+                        'line-cap': 'round',
                     },
-                });
-    
-
-
-    // Call fit when clicking the zoomto button
-    document.getElementById('zoomto').addEventListener('click', () => {
-        fit()
+                    'paint': {
+                        'line-color': '#4c566a',
+                        'line-width': 5,
+                        },
+                    });
+        for (const marker of parking.features) {
+                    const el = document.createElement('div');
+                    el.className = 'marker';
+                    el.style.backgroundImage = `url(img/all_maki_icons/svgs/parking.svg)`;
+                    el.style.width = '30px';
+                    el.style.height = '30px';
+                    el.style.backgroundSize = '100%';
+                
+                    // Add parking marker to the map.
+                    new mapboxgl.Marker(el)
+                    .setLngLat(marker.geometry.coordinates)
+                    .addTo(map);
+                    };
     });
-    });
 
-    // Create an empty marker
-    const marker = new mapboxgl.Marker();
-    // Function to add the marker
-    function add_marker (event) {
-        var coordinates = event.lngLat;
-        console.log('Lng:', coordinates.lng, 'Lat:', coordinates.lat);
-        marker.setLngLat(coordinates).addTo(map);
-        }
 };
-
-
-
-// Call mapData() to initalize the map
 mapData();
 
+    
