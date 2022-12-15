@@ -4,10 +4,11 @@ title: Early November Blanchard Mountain, Washington
 trail-name: Lily and Lizard Lakes, British Army Trail
 aside: false
 cover: img/blanchard-mountain/blanchard-mountain-nov-3.th.jpg
+show_cover: false 
 article_header:
   type: overlay
   theme: dark
-  image:
+  background_image:
     src: img/blanchard-mountain/blanchard-mountain-nov-3.jpg
 tags: hikes
 geojson-url: maps/hikes/20221105_blanchard_mountain_tracks.geojson
@@ -27,8 +28,8 @@ elevation-total-ascent-ft: 1782
 
 ![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-2.jpg)   
 
-![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-4.jpg)   
+![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-4.jpg)
 
-![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-5.jpg)   
+![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-5.jpg)
 
 ![Blanchard Mountain](img/blanchard-mountain/blanchard-mountain-nov-6.jpg)
