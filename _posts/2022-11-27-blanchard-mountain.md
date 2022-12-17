@@ -1,7 +1,7 @@
 ---
 layout: map-post
 title: Early November Blanchard Mountain, Washington
-trail-name: Lily and Lizard Lakes, British Army Trail
+trail-name: Lilly and Lizard Lakes, British Army Trail
 aside: false
 cover: img/blanchard-mountain/blanchard-mountain-nov-3.th.jpg
 show_cover: false 
