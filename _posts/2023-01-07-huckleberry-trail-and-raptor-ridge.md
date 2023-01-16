@@ -39,5 +39,3 @@ year-completed: 2023
 ![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_08.jpg)
 
 ![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_09.jpg)
-
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_10.jpg)
