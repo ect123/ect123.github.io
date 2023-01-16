@@ -11,7 +11,7 @@ article_header:
   background_image:
     src: img/hikes/20230107_huckleberry_to_raptor_ridge_07.jpg
 tags: hikes
-route-url: _data/tracks/20230107_huckleberry_to_raptor_ridge_export.geojson
+route-url: maps/hikes/20230107_huckleberry_to_raptor_ridge_export.geojson
 gpx-url: maps/hikes/20230107_huckleberry_to_raptor_ridge.gpx
 trailhead-lon: -122.489136
 trailhead-lat: 48.700805
