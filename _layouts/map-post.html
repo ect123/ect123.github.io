@@ -11,22 +11,27 @@ type: map-post
   <div class="layout--article">
     {%- include article/top/custom.html -%}
 
-    <div class="grid" style="text-align: center; margin:40px 0px 40px 0px;">
+   <div class="grid" style="text-align: center; margin:40px 0px 40px 0px;">
 
-      <div class="cell cell--3" > <span class="num">{{ page.distance-miles }}</span>
+      <div class="cards" > <span class="num">{{ page.distance-miles }}</span>
         <span class="text">MILES</span>
       </div>
-      <div class="cell cell--3"> <span class="num">{{ page.duration-hr }}:{{ page.duration-min }}</span>
+      <div class="cards"> <span class="num">{{ page.duration-hr }}:{{ page.duration-min }}</span>
         <span class="text">HOURS</span>
       </div>
-      <div class="cell cell--3"> <span class="num">{{ page.elevation-min-ft }} ft</span>
-        <span class="text">MIN ELEVATION</span>
+      <div class="cards"> <span class="num">{{ page.elevation-min-ft }}</span>
+        <span class="text">MIN ELEVATION FT</span>
       </div>
-      <div class="cell cell--3"> <span class="num">{{ page.elevation-max-ft }} ft</span>
-        <span class="text">MAX ELEVATION</span>
+      <div class="cards"> <span class="num">{{ page.elevation-max-ft }}</span>
+        <span class="text">MAX ELEVATION FT</span>
       </div>
-    </div>
-  
+      <!-- <div class="cards"> <span class="count-num" data-val="{{ page.elevation-min-ft }}">000</span>
+        <span class="text">MIN ELEVATION FT</span>
+      </div>
+      <div class="cards"> <span class="count-num" data-val="{{ page.elevation-max-ft }}">000</span>
+        <span class="text">MAX ELEVATION FT</span>
+      </div> -->
+    </div> 
   
     <div class="map-container" id="map"></div>
 
@@ -49,5 +54,6 @@ type: map-post
   <script>
     {%- include scripts/article.js -%}
     {%- include scripts/map-container.js -%}
+    {%- include scripts/num-count.js -%}
   </script>
   
