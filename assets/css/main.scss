@@ -23,6 +23,13 @@
     cursor: crosshair;
 }
 
+.cards {
+    max-width: 300px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 10px;
+  }
 
 @import
 
@@ -95,6 +102,12 @@
     "custom"
 ;
 
+span.count-num {
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
 span.num {
     display: grid;
     place-items: center;
