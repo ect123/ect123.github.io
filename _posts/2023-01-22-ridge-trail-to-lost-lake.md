@@ -1,41 +1,49 @@
 ---
 layout: map-post
-title: Huckleberry Trail and Raptor Ridge, Chuckanut Mountain, Washington
-trail-name: Lost Lake Trail to Huckleberry Trail and Raptor Ridge
+title: Ridge Trail to Lost Lake, Chuckanut Mountain, Washington
+trail-name: Ridge Trail to Lost Lake, and back along the Lost Lake Trail
 aside: false
-cover: img/hikes/20230107_huckleberry_to_raptor_ridge_07.th.jpg
+cover: img/hikes/20230122_ridge_trail_to_lost_lake_06.th.jpg
 show_cover: false 
 article_header:
   type: overlay
   theme: dark
   background_image:
-    src: img/hikes/20230107_huckleberry_to_raptor_ridge_07.jpg
+    src: img/hikes/20230122_ridge_trail_to_lost_lake_06.jpg
 tags: hikes
-route-url: maps/hikes/20230107_huckleberry_to_raptor_ridge_export.geojson
-gpx-url: maps/hikes/20230107_huckleberry_to_raptor_ridge.gpx
+route-url: maps/hikes/20230122_ridge_trail_to_lost_lake_export.geojson
+gpx-url: maps/hikes/20230122_ridge_trail_to_lost_lake.gpx
 trailhead-lon: -122.489136
 trailhead-lat: 48.700805
-distance-miles: 8.23
-duration-hr: 3
-duration-min: '07'
+distance-miles: 11.57
+duration-hr: 4
+duration-min: '37'
 elevation-min-ft: 99
-elevation-max-ft: 1609
-elevation-total-ascent-ft: 2389
+elevation-max-ft: 1841
+elevation-total-ascent-ft: 2665
 year-completed: 2023
 ---
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_01.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_04.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_02.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_05.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_03.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_06.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_04.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_07.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_05.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_09.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_06.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_10.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_08.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_12.jpg)
 
-![Huckleberry Trail to Raptor Ridge](img/hikes/20230107_huckleberry_to_raptor_ridge_09.jpg)
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_13.jpg)
+
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_15.jpg)
+
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_16.jpg)
+
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_17.jpg)
+
+![Ridge Trail to Lost Lake](img/hikes/20230122_ridge_trail_to_lost_lake_18.jpg)
