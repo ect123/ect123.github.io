@@ -26,5 +26,5 @@ titles:
 key: page-about
 ---
 
-Welcome to my site. I'm a librarian in Vancouver, British Columbia. I use this site to post things of personal and professional interest, including maps, GIS, hikes, and bikes. Feel free to <a href="https://mailhide.io/e/iqIxq"
+Welcome to my site. I'm a librarian in the California Bay Area. I use this site to post things of personal and professional interest, including maps, GIS, hikes, and bikes. Feel free to <a href="https://mailhide.io/e/iqIxq"
 onclick="mailhidepopup=window.open('https://mailhide.io/e/iqIxq','mailhidepopup','width=580,height=635'); return false;" > send me an email</a>.
